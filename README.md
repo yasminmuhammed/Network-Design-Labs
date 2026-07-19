@@ -1,15 +1,14 @@
-
-# Initial Configuration Lab
+# Lab02 - Static and Default Static Routing
 
 ## Overview
-This lab demonstrates the initial configuration of Cisco networking devices using Cisco Packet Tracer. It focuses on the basic setup required before implementing advanced networking features.
+This lab demonstrates the configuration of Static Routing and Default Static Routing using Cisco Packet Tracer. The objective is to enable communication between different networks by manually configuring routing entries.
 
 ## Objectives
 - Build the network topology.
-- Connect routers, switches, and PCs.
-- Configure device hostnames.
-- Configure console and VTY passwords.
-- Configure the enable secret password.
+- Configure IP addresses on routers and PCs.
+- Configure Static Routes.
+- Configure a Default Static Route.
+- Verify end-to-end connectivity using ping.
 - Save the running configuration.
 
 ## Network Devices
@@ -18,25 +17,37 @@ This lab demonstrates the initial configuration of Cisco networking devices usin
 - 4 PCs
 
 ## Configurations Performed
-- Hostname configuration
-- Console password configuration
-- Enable secret configuration (password 123)
-- Basic cabling and connectivity
-- Saving the configuration using: write
+- Interface IP address configuration
+- Static Route configuration
+- Default Static Route configuration
+- Connectivity verification using Ping
+- Saving the configuration
 
 ## Skills Demonstrated
 - Cisco IOS CLI
-- Initial device setup
-- Basic network topology creation
-- Device security configuration
-- Configuration management
+- IPv4 Addressing
+- Static Routing
+- Default Static Routing
+- Network Troubleshooting
+- Connectivity Verification
+
+## Verification
+- Successful ping between all PCs
+- Verified routing tables using:
+  ```
+  show ip route
+  ```
+- Verified connectivity using:
+  ```
+  ping
+  ```
 
 ## Software Used
 - Cisco Packet Tracer
 
 ## Files
-- lab1.pkt
-- image.png
+- Static_Default_Static_Routing_Lab.pkt
+- topology.png
 
 ## Author
 Yasmin Muhammed 
